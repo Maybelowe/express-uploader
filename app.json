@@ -1,0 +1,10 @@
+{
+  "name": "express-uploader",
+  "description": "Lightweight Database",
+  "repository": "https://github.com/Maybelowe/express-uploader",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": [
+    "database",
+    "uploader"
+  ]
+}
