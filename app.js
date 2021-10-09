@@ -7,7 +7,7 @@ import path from 'path';
 import fs from 'fs';
 
 const app = express()
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 9876
 
 // Cretae folder
 if (!fs.existsSync('./public/file')) fs.mkdirSync('./public/file')
@@ -95,7 +95,7 @@ app.post('/multi-upload', upload.array('files', 10), (req, res) => {
     });
     res.status(200).json({
         status: true,
-        message: "Created by akmalz",
+        message: "Created by Lowee",
         result: result
     })
 })
